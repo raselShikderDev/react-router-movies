@@ -24,7 +24,7 @@ export default function Home() {
               </p>
 
               {/* Adjust button size */}
-              <button className="py-1.5 px-4 sm:py-2 sm:px-6 text-sm sm:text-lg bg-cyan-500 rounded">
+              <button className="py-1.5 px-4 font-semibold sm:py-2 sm:px-6 text-sm sm:text-lg  bg-sky-500 rounded">
                 Explore More
               </button>
             </div>
