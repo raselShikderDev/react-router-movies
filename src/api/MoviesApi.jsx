@@ -4,7 +4,7 @@
 export const moviesApi = async () => {
   try {
     const api =
-      `http://www.omdbapi.com/?i=tt3896198&apikey=${import.meta.env.VITE_API_KEY}&s=titanic&page=1`;
+      `https://www.omdbapi.com/?i=tt3896198&apikey=${import.meta.env.VITE_API_KEY}&s=titanic&page=1`;
     const res = await fetch(api);
     if (!res.ok) {
       throw new Error(`Got problem in Data Fetcing ! ${res.status}`);

@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/rasel_color_logo.png";
+import logo from "../../assets/logo.png";
 export default function Header() {
   return (
     <header>

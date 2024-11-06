@@ -7,7 +7,7 @@ export const movieDetailsData = async ({ params }) => {
   console.log(params.movieDetails)
   try {
       const api =
-        `http://www.omdbapi.com/?i=${params.movieDetails}&apikey=${import.meta.env.VITE_API_KEY}`;
+        `https://www.omdbapi.com/?i=${params.movieDetails}&apikey=${import.meta.env.VITE_API_KEY}`;
     const res = await fetch(api);
 
       if (!res.ok) {
